@@ -1,0 +1,35 @@
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #28a745;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+.products {
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem;
+}
+.product {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  width: 30%;
+  text-align: center;
+}
+.cart {
+  margin: 1rem;
+  padding: 1rem;
+  border-top: 1px solid #ccc;
+}
+button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+}
